@@ -8,8 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@apollo/client": "^3.0.0-beta.44",
+    "formik": "^2.1.4",
+    "graphql": "^15.0.0",
     "next": "9.3.6",
+    "node-fetch": "^2.6.0",
+    "prop-types": "^15.7.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-spinners-kit": "^1.9.1",
+    "sweetalert2": "^9.10.13",
+    "uuid": "^8.0.0",
+    "yup": "^0.28.5"
   }
 }
