@@ -1,0 +1,23 @@
+.login-form__wrapper {
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .login-form__wrapper {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-form__wrapper {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .login-form__wrapper {
+    width: 70vw;
+  }
+}

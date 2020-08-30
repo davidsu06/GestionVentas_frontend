@@ -6,7 +6,6 @@ import { useMutation, gql } from '@apollo/client';
 import * as Yup from 'yup';
 import { MetroSpinner } from "react-spinners-kit";
 
-
 const LOGIN = gql`
     mutation authUser($input: AuthInput){
         authUser(input: $input){
@@ -76,15 +75,15 @@ const Login = () => {
         <Fragment>
             <Header />
 
-            <div className="min-vh-100 d-flex align-items-center justify-content-center m-0">
-                <div className="container" style={{width: '40%'}}>
+            <div className="min-vh-100 d-flex align-items-center m-0">
+                <div className="container d-flex justify-content-center">
 
                 {
                     load &&
                     <div className="d-flex justify-content-center"> <MetroSpinner size={80} color="#fff" loading={load} /> </div>
                 }
                 <form 
-                    className="mt-4 p-4 rounded mb-4"
+                    className="mt-4 p-4 rounded mb-4 login-form__wrapper"
                     onSubmit={formik.handleSubmit} 
                     style={{background: '#cbd5e0'}}
                 >
